@@ -1,15 +1,264 @@
 body {
-            background-color: powderblue;
+    font-family: "Corbel", serif;
+    margin: 0;
+    text-align: center;
+    background-color: #EEEEEE;
+    
 }
 
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
+a {
+    color:#243763;
+    margin-left: 40%;
+    margin-top: 50%;
+    text-decoration: none;
+    font-style: normal;
+}
+
+a:hover {
+    color: #CBEDD5;
+}
+
+.top-container {    
+    background-color: #243763;
+    position: relative;
+    padding: 50px 0 10px 0;
+    
+}
+
+.middle-container {    
+    position: relative;
+    margin-bottom: 10px;
+    padding: 0 0 10px 0;
+
+    
+}
+
+.separationgreenline{
+    background-color: #CBEDD5;
+    /* padding: 5px 572px 20px 489px; */
+    padding: 0 30% 1% 26%;
+    float:right;
+    width: 20%;
+    
+}
+
+.contact-information {
+    font-family: "Rockwell", serif;
+    background-color: #BBBBBB;   
+    margin: 0;    
+    padding: 0.85% 2.5% 3.3% 1.5%;
+    float:left;
+    width: 20%;
+    font-size: 140%;
+    text-align: left;
+    
+}
+
+.contact-information-p {
+    font-style: normal;
+    margin-left: 40%;
+}
+
+.phone-img{
+    position: absolute;
+    width: 2%;
+    top: 7%;
+    left: 5%;
+}
+
+.email-img{
+    position: absolute;
+    width: 2%;
+    top: 20%;
+    left: 5%;
+}
+
+.address-img{
+    position: absolute;
+    width: 2%;
+    top: 33%;
+    left: 5%;
+}
+
+.personal-page-img{
+    position: absolute;
+    width: 2%;
+    top: 46%;
+    left: 5%;
+}
+
+.linkedin-img{
+    position: absolute;
+    width: 2%;
+    top: 59%;
+    left: 5%;
+}
+
+.github-img{
+    position: absolute;
+    width: 2%;
+    top: 72%;
+    left: 5%;
+}
+
+.country-img{
+    position: absolute;
+    width: 2%;
+    top: 85%;
+    left: 5%;
+}
+
+
+.about-me {    
+    color: #243763;
+    margin-left: 23%;          
+    padding: 20px 20px 20px 20px;
+    width: 45%;
+    text-align: left;
+    font-size: 200%;
+}
+
+.about-me-title {
+    text-align: center;
+}
+
+.about-me-headline {
+    margin-left: 15%;
+    width: 80%;
+}
+
+.about-me-description {    
+    margin: auto;    
+    float: right;   
+    padding: 20px 20px 0px 20px;
+    width: 30%;
+    font-size: 200%;
+    text-align: left;
+}
+
+.education {
+    font-weight: 545;
+    float: left;
+    text-align: left;
+    margin: 0 0 0 50px;
+    width: 20%;
+    font-size: 150%;
+}
+
+.title-title {
+    font-size: 200%;
+}
+
+.skills{
+    font-size: 200%;
+    margin-top: 40px;
+}
+
+.experience{
+    width: 70%;
+    text-align: left;
+    margin-left: 27%;
+    font-size: 200%;
+}
+
+.job-title{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.company-name{
+    margin: 0 0 30px 0;
+    color: #243763;
+}
+
+.job-description-list{
+    padding-left: 180px;
+}
+
+.separation-middle-bottom{ 
+    border-color: #BBBBBB;
     border-width: 5px;
-    width: 5%;
+    border-style: none;
+    border-top-style: solid;
+    margin: 5% 0  20px 29%;    
+    width: 70%;
 }
 
-h1, h3 {
-    color: #66BFBF;
+.vertical-separation {
+    margin-right: 100px; 
+    float: left;
+    border-style: none;
+    border-left: 5px solid #BBBBBB;
+    height: 90rem;
+       
 }
+
+h1 {
+    color: #CBEDD5;   
+    text-align: left;    
+    margin-left: 30%; 
+    font-size: 300%;
+}
+
+h2 {
+    letter-spacing: 15px;
+    font-weight: 500;
+    color: #243763;
+    text-align: left;
+    margin-top: 0;    
+}
+
+h3 {
+    font-weight: 500;
+    color: #243763;
+    text-align: left;
+}
+
+h6 {
+    font-weight: 500;
+}
+
+p {
+    font-style: italic;
+    width: 100%;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+.roletitle {
+    color: #CBEDD5;   
+    text-align: left;    
+    margin-left: 30%; 
+    font-size: 200%;
+} 
+
+.underlineTitle{
+    margin-left: 30%;
+    width: 60%;
+}
+
+.footer{
+    position: relative;
+    background-color: #CBEDD5;
+    padding: 50px;
+    margin: 100px 0 0 0;
+}
+
+/* .firstname {
+    position: absolute;
+    color: #CBEDD5;
+    right: 50%;
+    top: 5%
+}
+
+.lastname {
+    position: absolute;
+    color: #CBEDD5;
+    right: 50%;
+    top: 15%
+} */
+
+
+
