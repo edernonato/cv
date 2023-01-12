@@ -1,6 +1,6 @@
 a {
     color: #243763;
-    margin-left: 40%;
+    margin-left: 35%;
     margin-top: 50%;
     text-decoration: none;
     font-style: normal;
@@ -71,7 +71,7 @@ body {
 
 .contact-information-p {
     font-style: normal;
-    margin-left: 40%;
+    margin-left: 35%;
 }
 
 .country-img {
@@ -170,6 +170,23 @@ p {
     width: 100%;
 }
 
+.pdf_download {
+    position: relative;
+    top: 1%;
+    left: 20%;
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 100%;
+
+}
+
+.pdf_download:hover {
+    background-color: RoyalBlue;
+}
+
 .personal-page-img {
     position: absolute;
     width: 2%;
@@ -202,7 +219,6 @@ p {
 
 .separation-green-line {
     background-color: #CBEDD5;
-    /* padding: 5px 572px 20px 489px; */
     padding: 0 30% 1% 26%;
     float: right;
     width: 20%;
