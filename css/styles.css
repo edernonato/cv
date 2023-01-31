@@ -40,7 +40,7 @@ a:hover {
 .address-img {
     position: absolute;
     width: 2%;
-    top: 33%;
+    top: 24%;
     left: 5%;
 }
 
@@ -77,7 +77,7 @@ body {
 .country-img {
     position: absolute;
     width: 2%;
-    top: 85%;
+    top: 60%;
     left: 5%;
 }
 
@@ -93,7 +93,7 @@ body {
 .email-img {
     position: absolute;
     width: 2%;
-    top: 20%;
+    top: 15%;
     left: 5%;
 }
 
@@ -114,7 +114,7 @@ body {
 .github-img {
     position: absolute;
     width: 2%;
-    top: 72%;
+    top: 51%;
     left: 5%;
 }
 
@@ -155,7 +155,7 @@ h6 {
 .linkedin-img {
     position: absolute;
     width: 2%;
-    top: 59%;
+    top: 42%;
     left: 5%;
 }
 
@@ -190,14 +190,15 @@ p {
 .personal-page-img {
     position: absolute;
     width: 2%;
-    top: 46%;
+    top: 33%;
     left: 5%;
 }
+
 
 .phone-img {
     position: absolute;
     width: 2%;
-    top: 7%;
+    top: 6%;
     left: 5%;
 }
 
@@ -255,3 +256,39 @@ ul {
     border-left: 5px solid #BBBBBB;
     height: 90rem;
 }
+
+
+.word_download {
+    position: relative;
+    top: 5%;
+    left: 20%;
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 100%;
+
+}
+
+.word_download:hover {
+    background-color: RoyalBlue;
+}
+
+.download-versions-li {
+    margin-bottom: 0.8%;
+}
+
+.download-versions-ul {
+    text-align: left; 
+    position: relative; 
+    left: 30%; 
+    text-decoration: none; 
+    list-style-type: none;
+}
+
+
+
+
+
+
